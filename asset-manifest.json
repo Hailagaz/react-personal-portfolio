@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/react-personal-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react-personal-portfolio/static/js/main.d17dbf93.js",
+    "main.css": "/react-personal-portfolio/static/css/main.df6a7eab.css",
+    "main.js": "/react-personal-portfolio/static/js/main.094d9ebe.js",
     "static/js/787.d2155700.chunk.js": "/react-personal-portfolio/static/js/787.d2155700.chunk.js",
-    "static/media/logo.svg": "/react-personal-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/photo4.jpg": "/react-personal-portfolio/static/media/photo4.cadcb664e3839fe05ccf.jpg",
+    "static/media/photo6.jpg": "/react-personal-portfolio/static/media/photo6.0a386b713efb9a011342.jpg",
+    "static/media/photo7.jpg": "/react-personal-portfolio/static/media/photo7.650c0359ec43bfa13200.jpg",
+    "static/media/photo3.jpg": "/react-personal-portfolio/static/media/photo3.95a12e0fe88ba91c9bfa.jpg",
+    "static/media/photo8.jpg": "/react-personal-portfolio/static/media/photo8.794216375a9bdc068c57.jpg",
+    "static/media/photo2.jpg": "/react-personal-portfolio/static/media/photo2.84c6b3fb5ea1327c4cdb.jpg",
+    "static/media/photo5.jpg": "/react-personal-portfolio/static/media/photo5.71fbc148c67248c6c571.jpg",
+    "static/media/photo1.jpg": "/react-personal-portfolio/static/media/photo1.f389a75514beaa75a969.jpg",
     "index.html": "/react-personal-portfolio/index.html",
-    "main.073c9b0a.css.map": "/react-personal-portfolio/static/css/main.073c9b0a.css.map",
-    "main.d17dbf93.js.map": "/react-personal-portfolio/static/js/main.d17dbf93.js.map",
+    "main.df6a7eab.css.map": "/react-personal-portfolio/static/css/main.df6a7eab.css.map",
+    "main.094d9ebe.js.map": "/react-personal-portfolio/static/js/main.094d9ebe.js.map",
     "787.d2155700.chunk.js.map": "/react-personal-portfolio/static/js/787.d2155700.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d17dbf93.js"
+    "static/css/main.df6a7eab.css",
+    "static/js/main.094d9ebe.js"
   ]
 }
