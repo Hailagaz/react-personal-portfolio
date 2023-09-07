@@ -48,12 +48,12 @@ const LandingSection = () => {
 		>
 			<VStack spacing={isMobile ? 6 : 8} alignItems="center" marginTop={isMobile ? 36 : 24}>
 				{/* <Avatar src="https://i.pravatar.cc/150?img=11" size={avatarSize} name="Oleh" alt="Profile Picture" /> */}
-				<Heading as="h1" size={headingSize} textAlign="center" noOfLines={1}>
+				<Heading as="h1" size={headingSize} textAlign="center" noOfLines={4}>
 					{greeting}
 				</Heading>
 				<VStack spacing={isMobile ? 4 : 6}>
 					{bio.map((line, index) => (
-						<Heading key={index} as="h2" size={avatarSize} noOfLines={5}>
+						<Heading key={index} as="h2" size={avatarSize} noOfLines={20} paddingInline={3}>
 							{line}
 						</Heading>
 					))}
