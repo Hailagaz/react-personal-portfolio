@@ -4,7 +4,7 @@ import FullScreenSection from "./FullScreenSection";
 import landingData from "../data/landingData";
 
 const greeting = "Front-End Developer: Creating Web Interfaces to elevate user interaction";
-const bio = ["I am a skilled Front-End Developer with 2 years of experience. I excel at translating design concepts into pixel-perfect websites and have a proven track record of enhancing user engagement and satisfaction through my work. My expertise includes responsive design, efficient troubleshooting, and meticulous attention to detail. Proficient in modern front-end technologies, I am eager to contribute my skills and expertise to help you bring your digital vision to life."];
+const bio = ["I am a skilled Front-End Developer with 2 years of experience. I have a strong track record of turning design concepts into user-friendly websites that enhance engagement. My achievements include boosting user interaction on high-traffic e-commerce sites by 20%, improving mobile user experience, resulting in a 15% conversion rate increase, and optimizing site performance to reduce bounce rates by 25%. I'm proficient in HTML, CSS, and JavaScript, with an eye for design and a knack for troubleshooting technical issues, ensuring high-quality, responsive web interfaces."];
 
 const CarouselItem = ({ technology, size }) => (
 	<Box
