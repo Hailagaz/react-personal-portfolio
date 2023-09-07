@@ -3,8 +3,8 @@ import { Avatar, Heading, VStack, useBreakpointValue, Box, Link, SimpleGrid } fr
 import FullScreenSection from "./FullScreenSection";
 import landingData from "../data/landingData";
 
-const greeting = "Welcome, I am Hail.";
-const bio = ["A student in Meta", "Front-End Certification"];
+const greeting = "Front-End Developer: Creating Web Interfaces to elevate user interaction";
+const bio = ["I am a skilled Front-End Developer with 2 years of experience. I excel at translating design concepts into pixel-perfect websites and have a proven track record of enhancing user engagement and satisfaction through my work. My expertise includes responsive design, efficient troubleshooting, and meticulous attention to detail. Proficient in modern front-end technologies, I am eager to contribute my skills and expertise to help you bring your digital vision to life."];
 
 const CarouselItem = ({ technology, size }) => (
 	<Box
@@ -32,8 +32,8 @@ const CarouselItem = ({ technology, size }) => (
 const LandingSection = () => {
 	const isMobile = useBreakpointValue({ base: true, md: false });
 
-	const avatarSize = isMobile ? "xl" : "2xl";
-	const headingSize = isMobile ? "md" : "lg";
+	const avatarSize = isMobile ? "sm" : "md";
+	const headingSize = isMobile ? "md" : "xl";
 
 	const [isLoading, setIsLoading] = useState(false);
 
@@ -47,13 +47,13 @@ const LandingSection = () => {
 			py={isMobile ? 8 : 16}
 		>
 			<VStack spacing={isMobile ? 6 : 8} alignItems="center" marginTop={isMobile ? 36 : 24}>
-				<Avatar src="https://i.pravatar.cc/150?img=11" size={avatarSize} name="Oleh" alt="Profile Picture" />
+				{/* <Avatar src="https://i.pravatar.cc/150?img=11" size={avatarSize} name="Oleh" alt="Profile Picture" /> */}
 				<Heading as="h1" size={headingSize} textAlign="center" noOfLines={1}>
 					{greeting}
 				</Heading>
 				<VStack spacing={isMobile ? 4 : 6}>
 					{bio.map((line, index) => (
-						<Heading key={index} as="h2" size={avatarSize} noOfLines={1}>
+						<Heading key={index} as="h2" size={avatarSize} noOfLines={5}>
 							{line}
 						</Heading>
 					))}
