@@ -145,21 +145,21 @@ const ProjectsSection = () => {
 										top={0}
 										left={0}
 										right={0}
-										bottom={0}
 										display="flex"
 										justifyContent="center"
-										alignItems="center"
+										alignItems="top"
 										color="white"
 										bg="rgba(0, 0, 0, 0.8)"
 										opacity={1}
 										p={4}
+										paddingY={85}
 										transition="opacity 0.3s"
 									>
 										<Box textAlign="center" >
 											<Heading as="h3" size="lg" mb={2}>
 												{title}
 											</Heading>
-											<Box>{description}</Box>
+											<Heading as="p" size="md">{description}</Heading>
 										</Box>
 									</Box>
 								) : (
