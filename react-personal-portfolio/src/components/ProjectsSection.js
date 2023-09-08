@@ -155,7 +155,7 @@ const ProjectsSection = () => {
 										p={4}
 										transition="opacity 0.3s"
 									>
-										<Box textAlign="center">
+										<Box textAlign="center" >
 											<Heading as="h3" size="lg" mb={2}>
 												{title}
 											</Heading>
@@ -177,7 +177,20 @@ const ProjectsSection = () => {
 									</Box>
 								)}
 							</LinkOverlay>
-							<Box textAlign="center" color="white" bg="rgba(0, 0, 0, 0.8)" opacity={1} p={4}>
+							<Box
+								top={0}
+								left={0}
+								right={0}
+								bottom={0}
+								display="flex"
+								justifyContent="center"
+								alignItems="center"
+								color="white"
+								bg="rgba(0, 0, 0, 0.8)"
+								opacity={1}
+								p={4}
+								height="200px"
+							>
 								<Heading as="h3" size="lg" mb={2}>
 									{caption}
 								</Heading>
